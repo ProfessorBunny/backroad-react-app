@@ -6,6 +6,19 @@ import Services from './components/Services'
 import Tours from './components/Tours'
 
 const App = () => {
-  return <></>
+  return (
+    <>
+      <Navbar />
+
+      <Hero />
+
+      <About />
+
+      <Services />
+
+      <Tours />
+      <Footer />
+    </>
+  )
 }
 export default App
